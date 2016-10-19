@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'OriginBold';
+    src: url('../fonts/Origin-Bold.ttf') format('truetype');
+}
+
+body{
+  background-color: #252D36;
+}
+
+#btnDownload{
+  position: relative;
+  top: 100px;
+}
+
+#containerDiv{
+  margin-top: 1%;
+  margin-left: 14%;
+  width: 1575px;
+  height: 1055px;
+  box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 1), 3px 0 5px -3px rgba(1, 1, 1, 1);
+}
+
+#fondoDiv{
+  background-image: url("../img/flyer2-fondo.jpg");
+  height: 920px;
+}
+#fondoiz{
+  height: 174px;
+}
+#fondode{
+  height: 174px;
+  text-align: center;
+
+}
+#destino{
+  position: relative;
+  font-family: OriginBold;
+  color: white;
+  font-size: 90px;
+  top:20%;
+  overflow: hidden;
+  text-overflow: clip;
+}
+#bgDiv{
+  position: relative;
+  background-image: url("../img/flyer2-foto1.jpg");
+  background-size: cover;
+  width: 1536px;
+  height: 746px;
+  left: 39px;
+  overflow: hidden;
+}
+
+
+#footer{
+  background-color: #ffffff;
+  width: 1575px;
+  height: 135px;
+}
+#logo{
+  position: relative;
+  background-image: url("../img/flyer2-logo.jpg");
+  background-size: cover;
+  top: 15px;
+  height: 100px;
+  width: 335px;
+}
+#divprecioArriba{
+  height: 53px;
+}
+#precio{
+  background-image: url("../img/flyer2-precio.png");
+  background-position: -39px;
+  background-size: cover;
+  height: 228px;
+  width: 342px;
+}
+#rowprecioiz{
+  position: relative;
+  top: 55px;
+  text-align: center;
+}
+#precioiz{
+  height: 111px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#precioEditable{
+  color: white;
+  font-size: 90px;
+  overflow: hidden;
+  text-overflow:clip;
+  white-space: nowrap;
+
+}
+#divprecioAbajo{
+  height: 141px;
+}
+#divfoto2{
+  height: 325px;
+  width: 540px;
+  border: 12px solid #C54444;
+  border-radius: 25px;
+}
+#foto2{
+  position: relative;
+  background-image: url("../img/flyer2-foto2.png");
+  background-size: cover;
+  height: 325px;
+  width: 540px;
+  top: 20px;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#iz{
+  height: 135px;
+}
+#correo{
+  position: relative;
+  color: #4F5A94;
+  font-size: 25px;
+  text-align: center;
+  top: 35%;
+  overflow: hidden;
+  text-overflow:clip;
+  white-space: nowrap;
+}
+#me{
+  height: 135px;
+  padding-left: 0px;
+}
+#info{
+  position: relative;
+  color: #4F5A94;
+  font-size: 26px;
+  text-align: center;
+  top: 20%;
+  overflow: hidden;
+  text-overflow:clip;
+  white-space: nowrap;
+}
+#de{
+  height: 135px;
+  padding-left: 0px;
+}
+
+.modal-dialog{
+  position: absolute;
+  left: 50px;
+
+}
+
+.modal-content{
+  width: 1600px;
+  height: 1200px;
+}
