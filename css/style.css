@@ -156,3 +156,6 @@ body{
   width: 1600px;
   height: 1200px;
 }
+#fileLeft{
+  display: none;
+}
