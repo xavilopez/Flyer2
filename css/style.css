@@ -16,20 +16,26 @@ body{
   /*margin-top: 1%;
   margin-left: 14%;*/
 
-  width: 1575px;
-  height: 1055px;
+  /*width: 1575px;
+  height: 1055px;*/
+  width: 2480px;
+  height: 1772px;
   box-shadow: -3px 0 5px -3px rgba(1, 1, 1, 1), 3px 0 5px -3px rgba(1, 1, 1, 1);
 }
 
 #fondoDiv{
   background-image: url("../img/flyer2-fondo.jpg");
-  height: 920px;
+  background-size: cover;
+  height: 87.25%;
+}
+#rowHeader{
+  height: 17.7%;
 }
 #fondoiz{
-  height: 174px;
+  height: 100%;
 }
 #fondode{
-  height: 174px;
+  height: 100%;
   text-align: center;
 
 }
@@ -37,7 +43,7 @@ body{
   position: relative;
   font-family: OriginBold;
   color: white;
-  font-size: 90px;
+  font-size: 950%;
   top:20%;
   overflow: hidden;
   text-overflow: clip;
@@ -46,82 +52,83 @@ body{
   position: relative;
   background-image: url("../img/flyer2-foto1.jpg");
   background-size: cover;
-  width: 1536px;
-  height: 746px;
-  left: 39px;
+  width: 97.55%;
+  height: 82.3%;
+  left: 2.455%;
   overflow: hidden;
 }
-
-
 #footer{
   background-color: #ffffff;
-  width: 1575px;
-  height: 135px;
+  width: 100%;
+  height: 12.7%;
+}
+#rowFooter{
+  height: 100%;
 }
 #logo{
   position: relative;
   background-image: url("../img/flyer2-logo.jpg");
   background-size: cover;
-  top: 15px;
-  height: 100px;
-  width: 335px;
+  top: 9%;
+  height: 70%;
+  width: 90%;
 }
 #divprecioArriba{
-  height: 53px;
+  height: 7%;
 }
 #precio{
   background-image: url("../img/flyer2-precio.png");
-  background-position: -39px;
+  background-position: 100%;
   background-size: cover;
-  height: 228px;
-  width: 342px;
+  height: 30.5%;
+  width: 25%;
 }
 #rowprecioiz{
   position: relative;
-  top: 55px;
+  top: 25%;
   text-align: center;
 }
 #precioiz{
-  height: 111px;
+  height: 100%;
   padding-left: 0px;
   padding-right: 0px;
 }
 #precioEditable{
   color: white;
-  font-size: 90px;
+  font-size: 900%;
   overflow: hidden;
   text-overflow:clip;
   white-space: nowrap;
 
 }
 #divprecioAbajo{
-  height: 141px;
+  height: 19%;
 }
 #divfoto2{
-  height: 325px;
-  width: 540px;
-  border: 12px solid #C54444;
-  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+  border: 20px solid #C54444;
+  border-radius: 60px;
 }
 #foto2{
   position: relative;
   background-image: url("../img/flyer2-foto2.png");
-  background-size: cover;
-  height: 325px;
-  width: 540px;
-  top: 20px;
+  background-size:contain;
+  height: 45%;
+  width: 35%;
+  top: 3%;
 }
 .row{
   margin-left: 0px;
   margin-right: 0px;
 }
 #iz{
-  height: 135px;
+  height: 100%;
 }
 #correo{
   position: relative;
   color: #4F5A94;
-  font-size: 25px;
+  font-size: 300%;
   text-align: center;
   top: 35%;
   overflow: hidden;
@@ -129,13 +136,13 @@ body{
   white-space: nowrap;
 }
 #me{
-  height: 135px;
+  height: 100%;
   padding-left: 0px;
 }
 #info{
   position: relative;
   color: #4F5A94;
-  font-size: 26px;
+  font-size: 300%;
   text-align: center;
   top: 20%;
   overflow: hidden;
@@ -143,7 +150,7 @@ body{
   white-space: nowrap;
 }
 #de{
-  height: 135px;
+  height: 100%;
   padding-left: 0px;
 }
 
@@ -164,9 +171,9 @@ body{
   display: none;
 }
 .divTransform{
-  margin-top: -150px;
-  margin-left: -100px;
-  transform: scale(0.7);
+  margin-top: -30%;
+  margin-left: -35%;
+  transform: scale(0.5);
 }
 #previewImage{
   width: 100%;

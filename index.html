@@ -39,7 +39,7 @@
 
   <div id="containerDiv">
     <div id="fondoDiv">
-      <div class="row">
+      <div class="row" id="rowHeader">
         <div class="col-xs-7" id="fondoiz">
         </div>
         <div class="col-xs-5" id="fondode">
@@ -70,7 +70,7 @@
       </div>
     </div>
     <div id="footer">
-      <div class="row">
+      <div class="row" id="rowFooter">
         <div class="col-xs-3" id="iz">
           <div id="correo" contenteditable data-name='custom-text'>delta@aeromar.com.py</div>
         </div>
@@ -108,7 +108,6 @@
           </div>
           <div class="modal-body">
             <div id="previewImage">
-
             </div>
           </div>
           <div class="modal-footer">
@@ -145,22 +144,6 @@
              }
          });
          $("#containerDiv").addClass("divTransform");
-         /*$("#containerDiv").removeClass("divTransform");
-         html2canvas(element, {
-           useCORS: true,
-           allowTaint: true,
-           letterRendering: true,
-           onrendered: function(canvas) {
-             var ctx = canvas.getContext('2d');
-             ctx.webkitImageSmoothingEnabled = false;
-             ctx.mozImageSmoothingEnabled = false;
-             ctx.imageSmoothingEnabled = false;
-             $("#previewImage").append(canvas);
-             getCanvas = canvas;
-           },
-         });
-         $("#containerDiv").addClass("divTransform");*/
-
     });
 
     $("#btn-Convert-Html2Image").on('click', function () {
