@@ -171,8 +171,10 @@ body{
   display: none;
 }
 .divTransform{
-  margin-top: -30%;
-  margin-left: -35%;
+  /*margin-top: -30%;
+  margin-left: -35%;*/
+  margin-top: -450px;
+  margin-left: -500px;
   transform: scale(0.5);
 }
 #previewImage{
